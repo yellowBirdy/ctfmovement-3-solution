@@ -1,0 +1,14 @@
+[package]
+name = 'PoolDrainer'
+version = '1.0.0'
+
+
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "aptos-node-v1.5.0" }
+swap = { local = "Pool" }
+
+[addresses]
+               
+ctfmovement = '0x700e987619d454c845bcc6b40a1a78059c22751764fe2bbc75b729e7aa24fde1'
+attacker = '_'
